@@ -1,0 +1,21 @@
+node a 1
+node b 2
+node c 3
+node d 4
+node e 5
+node f 6
+node g 7
+link a b
+link a d
+link a e
+link a f
+link a g
+link b d
+link b c
+link b f
+link c d
+link c g
+link d e
+link f g
+link f e
+send g

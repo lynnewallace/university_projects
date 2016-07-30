@@ -1,0 +1,24 @@
+digraph G {
+node [shape=record];
+kennethlayenroncom [label="kenneth.lay|CEO"];
+louisekitchenenroncom [label="louise.kitchen|PresidentEnronOnline"];
+jeffdasovichenroncom [label="jeff.dasovich|GovernmentRelationExecutive"];
+jeffskillingenroncom [label="jeff.skilling|CEO"];
+sallybeckenroncom [label="sally.beck|ChiefOperatingOfficer"];
+kennethlayenroncom -> jeffskillingenroncom [label = "1"];
+kennethlayenroncom -> louisekitchenenroncom [label = "2"];
+kennethlayenroncom -> sallybeckenroncom [label = "3"];
+louisekitchenenroncom -> jeffskillingenroncom [label = "1"];
+louisekitchenenroncom -> kennethlayenroncom [label = "2"];
+louisekitchenenroncom -> jeffdasovichenroncom [label = "1"];
+louisekitchenenroncom -> sallybeckenroncom [label = "49"];
+jeffdasovichenroncom -> jeffskillingenroncom [label = "3"];
+jeffdasovichenroncom -> kennethlayenroncom [label = "1"];
+jeffdasovichenroncom -> louisekitchenenroncom [label = "54"];
+jeffskillingenroncom -> kennethlayenroncom [label = "2"];
+jeffskillingenroncom -> louisekitchenenroncom [label = "3"];
+jeffskillingenroncom -> sallybeckenroncom [label = "2"];
+sallybeckenroncom -> jeffskillingenroncom [label = "5"];
+sallybeckenroncom -> kennethlayenroncom [label = "2"];
+sallybeckenroncom -> louisekitchenenroncom [label = "69"];
+}
